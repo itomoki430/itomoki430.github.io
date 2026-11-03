@@ -14,3 +14,6 @@
 @media(max-width:800px){.hero-portrait{width:min(100%,240px);padding:10px 10px 0}.hero-portrait figcaption{font-size:10px;padding:10px 1px}}
 @media(max-width:520px){.hero-portrait{position:relative;width:220px;margin:32px auto 0;transform:none}.hero{overflow:visible}}
 @media print{.hero-portrait{display:none}}
+
+/* Frame the supplied wide photograph around the portrait without altering the original. */
+.hero-portrait img{aspect-ratio:175/165;object-fit:cover;object-position:70% center}
